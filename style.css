@@ -1,0 +1,132 @@
+*{
+    background-color: rgba(8, 163, 135, 0.467);
+    Padding: 0;
+    Margin: 0;
+    Box-Sizing: Border-Box;
+    -Webkit-Font-Smoothing: Antialiased;
+    }
+    Header{
+    Background-Color: Var(BgDark);
+    Clip-Path: Polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+    }
+    Header Nav .Left A{
+    Color: Var(White);
+    Text-Decoration: None;
+    Margin-Right: 2rem;
+    Text-Transform: Uppercase;
+    Transition: All .2s Ease;
+    }
+    Header Nav .Left A:hover{
+    Color: Var(--Primary);
+    }
+    Header Nav {
+    Padding: 2rem 0;
+    }
+    Header Nav .Logo{
+    Margin-Right: 3rem;
+    }
+    Body{
+        Font-Family: 'Poppins', Sans-Serif;
+        }
+        .Container{
+        Max-Width: 1152px;
+        Padding: 0 15px;
+        Margin: 0 Auto;
+        }
+        .Hero{
+        Padding-Top: 2rem;
+        Padding-Bottom: 3rem;
+        }
+        .Hero .Left Img{
+        Width: 400px;
+        }
+        .Hero .Right {
+        Color: Var(White);
+        Margin-Top: -7rem;
+        }
+        .Hero .Right H6{
+        Font-Size: 1.6rem;
+        Color: Var(--Primary);
+        Margin-Bottom: 0.5rem;
+        }
+        .Hero .Right H1{
+        Font-Size: 4rem;
+        Font-Weight: 100;
+        Line-Height: 1.2;
+        Margin-Bottom: 2rem;
+        }
+        .Hero .Right H1 Span{
+        Color: Var(--Primary);
+        }
+        .Hero .Right P{
+        Line-Height: 1.9;
+        Margin-Bottom: 2rem;
+        }
+        .Flex{
+            Display: Flex;
+            }
+            .Items-Centre{
+            Align-Items: Center;
+            }
+            .Justify-Between{
+            Justify-Content: Space-Between;
+            }
+            .Justify-Center{
+            Justify-Content: Center;
+            }
+            .Justify-Right{
+            Justify-Content: Right;
+            }
+            .Btn{
+            Padding: 0.6rem 2rem;
+            Font-Size: 1rem;
+            Font-Weight: 600;
+            Border: 2px Solid Transparent;
+            Outline: None;
+            Cursor: Pointer;
+            Text-Transform: Uppercase;
+            Transition: All .2s Ease;
+            }
+            .Btn-Primary{
+            Background-Color: Var(--Primary);
+            Color: Var(--Secondary);
+            Margin-Top: -15rem;
+            }
+            .Btn-Primary:hover{
+            Background: ; transperant;
+            Border-Color: Var(--Primary);
+            Color: Var(--Primary);
+            }
+            .Flex-1{
+            Flex: 1;
+            }
+            .Btn-Secondary{
+            Background: Transparent;
+            Color: Var(--Primary);
+            Border-Color: Var(--Primary);
+            }
+            .Btn-Secondary:hover{
+            Background: Var(--Primary);
+            Color: Var(--Secondary);
+            }
+            <Section Class="About">
+<Div Class="Container Flex Items-Centre">
+<Div Class="Left Flex-1 Justify-Right">
+<Img Src="./Images/Man2.Png" Height="400px" Alt="Profile Pic">
+</Div>
+<Div Class="Right Flex-1">
+<H1>About <Span>Me</Span></H1>
+<H3>Hello! I'm Akshat Sharma.</H3>
+<P>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Atque Adipisci Distinctio Obcaecati Aliquid,
+Quia Tempora Quis Optio Repudiandae Officia Earum?
+Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit.
+</P>
+<Div Class="Socials">
+<A Href="#"><Img Src="./Images/Website.Png" Width="40px"></A>
+<A Href="#"><Img Src="./Images/Facebook.Png" Width="40px"></A>
+<A Href="#"><Img Src="./Images/Instagram.Png" Width="40px"></A>
+<A Href="#"><Img Src="./Images/Media-Player.Png" Width="40px"></A>
+</Div>
+</Div>
+</Div>
+</Section>
